@@ -1,7 +1,5 @@
 import * as React from "react";
 import styled from "styled-components";
-import ContentFrame from "../shared/ContentFrame";
-import Grid from "../shared/Grid";
 
 const Banner = styled.section`
   grid-column: 1 / span 14;
@@ -15,14 +13,4 @@ const Banner = styled.section`
   font-size: 4rem;
 `;
 
-const Projects = () => (
-  <Grid>
-    <Banner>Projects</Banner>
-    <ContentFrame>
-      <h1>Robert's Projects</h1>
-      <section>projects go here.</section>
-    </ContentFrame>
-  </Grid>
-);
-
-export default Projects;
+export default Banner;

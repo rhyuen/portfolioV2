@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 
-const HeroHeader: React.FunctionComponent<{}> = styled.nav`
+const HeroHeader: React.FunctionComponent<{}> = styled.section`
   grid-column: 1 / span 14;
   color: black;
   display: grid;

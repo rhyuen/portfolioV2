@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as Sentry from "@sentry/browser";
-import Grid from "./Grid";
+import Grid from "./shared/Grid";
 import ContentFrame from "./shared/ContentFrame";
 
 interface Props {}

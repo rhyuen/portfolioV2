@@ -1,30 +1,29 @@
 import * as React from "react";
-import { Route, Switch, HashRouter, Redirect } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import { hot } from "react-hot-loader";
-import Grid from "./Grid";
 import Nav from "./Nav";
-import HeroHeader from "./HeroHeader";
+import styled from "styled-components";
 import NotFound from "./NotFound";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
-import ContentFrame from "./shared/ContentFrame";
+
+const Root = styled.main`
+  width: 100%;
+`;
 
 const App: React.FunctionComponent<{}> = () => {
   return (
     <HashRouter>
-      <Grid>
+      <Root>
         <Nav />
-        <HeroHeader />
-        <ContentFrame>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            <Route component={NotFound} />
-          </Switch>
-        </ContentFrame>
-      </Grid>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/projects" component={Projects} />
+          <Route component={NotFound} />
+        </Switch>
+      </Root>
     </HashRouter>
   );
 };

@@ -3,16 +3,18 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const StyledNav: React.FunctionComponent<{}> = styled.nav`
-  grid-column: 1 / span 14;
   display: grid;
-  grid-template-columns: repeat(12, minmax(auto, 100px));
+  grid-template-columns:
+    minmax(20px, 1fr)
+    repeat(12, minmax(auto, 100px))
+    minmax(20px, 1fr);
   background-color: #f3f3f3;
-  height: 20vh;
+  height: 15vh;
 `;
 
 const LeftSection = styled.section`
   height: 100%;
-  grid-column: 5 / span 1;
+  grid-column: 2 / span 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -20,7 +22,7 @@ const LeftSection = styled.section`
 
 const RightSection = styled.section`
   height: 100%;
-  grid-column: 13 / span 3;
+  grid-column: 11 / span 1;
   display: flex;
   align-items: flex-end;
 `;

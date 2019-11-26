@@ -1,8 +1,20 @@
+import * as React from "react";
 import styled from "styled-components";
+import Footer from "./Footer";
 
-const ContentFrame: React.FunctionComponent<{}> = styled.section`
+const ContentFrame = styled.div`
   background-color: papayawhip;
   grid-column: 2 / span 12;
+  padding: 30px;
 `;
 
-export default ContentFrame;
+const ExportedContentFrame: React.FunctionComponent<{}> = ({ children }) => {
+  return (
+    <ContentFrame>
+      {children}
+      <Footer />
+    </ContentFrame>
+  );
+};
+
+export default ExportedContentFrame;
