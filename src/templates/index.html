@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Robert Yuen</title>
+    <link rel="icon" type="image/png/ico" href="./favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="Robert Yuen" content="Robert Yuen">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI";
+        }
+    </style>
+</head>
+
+<body>
+    <div id="modal"></div>
+    <div id="app"></div>
+    <% if(process.env.NODE_ENV === "production") { %>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <% } %>
+</body>
+
+</html>

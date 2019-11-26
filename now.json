@@ -1,0 +1,22 @@
+{
+  "name": "ryuenv2",
+  "version": 2,
+  "alias": ["ryuen"],
+  "env": {},
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ],
+  "public": true
+}

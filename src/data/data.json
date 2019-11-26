@@ -1,0 +1,155 @@
+{
+    "name": "Robert Yuen",
+    "social": {
+        "github": "https://github.com/rhyuen",
+        "linkedin": "https://linkedin.com/robert-yuen",
+        "twitter": "https://twitter.com/ryuen1",
+        "email": "mailto:roberthyuen@gmail.com"
+    },
+    "skills": [
+        "Javascript",
+        "NodeJS",
+        "HTML",
+        "Docker",
+        "CSS",
+        "JWT",
+        "Git",
+        "ReactJS",
+        "Webpack",
+        "PostGreSQL"
+    ],
+    "developing": ["Typescript", "Golang"],
+    "disuse": ["Gulp"],
+    "projects": [{
+            "name": "Golang Quotes API",
+            "date": "October 17, 2019",
+            "description": "Web application that lets you make deposits, new accounts, withdrawls and transfers. ",
+            "link": "https://rynodefaas.now.sh",
+            "tags": [
+                "Golang", "Serverless"
+            ]
+        },{
+            "name": "Social Network",
+            "date": "October 17, 2019",
+            "description": "Social Network ",
+            "link": "https://rynodefaas.now.sh",
+            "tags": [
+                "React", "Webpack", "NodeJS", "Serverless", "PostGreSQL", "Typescript"
+            ]
+        },{
+            "name": "Simulated Banking Application",
+            "date": "March 25, 2019",
+            "description": "Web application that lets you make deposits, new accounts, withdrawls and transfers. ",
+            "link": "https://rynodefaas.now.sh",
+            "tags": [
+                "React", "Webpack", "NodeJS", "Serverless", "PostGreSQL"
+            ]
+        }, {
+            "name": "JustCounting",
+            "date": "March 25, 2019",
+            "description": "Front end project that pretties up some data and makes it more easily digestible.",
+            "link": "https://royucount.netlify.com",
+            "tags": [
+                "Typescript", "React", "Webpack", "ChartJS"
+            ]
+        }, {
+            "name": "Product Hunt Clone",
+            "date": "December 12, 2018",
+            "description": "",
+            "link": "https://rypdt.now.sh",
+            "tags": [
+                "NodeJS", "REST API", "MongoDB", "React", "Webpack"
+            ]
+        },
+        {
+            "name": "Tumblr Front-End Clone",
+            "date": "July 16, 2018",
+            "description": "Front End Prototype that emulates the layout of the Tumblr Feed",
+            "link": "https://rytumblr.now.sh",
+            "tags": [
+                "React", "Webpack"
+            ]
+        },
+        {
+            "name": "Quotes API Service, Personal Project",
+            "date": "November 16, 2017",
+            "description": "A NodeJS API that can be called for inspirational quotes from historic figures.",
+            "link": "https://github.com/rhyuen/quotesservice",
+            "tags": [
+                "NodeJS", "REST API", "Async/Await", "MongoDB"
+            ]
+        },
+        {
+            "name": "wit.ai Chatbot, Personal Project",
+            "date": "November 4, 2017",
+            "description": "A NodeJS chat bot that uses the wit.ai library to respond to user queries.  Answers questions about me.",
+            "link": "https://github.com/rhyuen/witaibot",
+            "tags": [
+                "NodeJS", "Chatbot", "wit.ai"
+            ]
+        },
+        {
+            "name": "YVRUN - Running with Strangers , Personal Project",
+            "date": "November 14, 2017",
+            "description": "A responsive front-end that lists a number of running groups in Vancouver and their weekly details.",
+            "link": "https://yvrun.now.sh",
+            "tags": [
+                "ReactJS", "Webpack", "Flexbox", "Responsive"
+            ]
+        },
+        {
+            "name": "YARR Reader, Personal Project",
+            "date": "2017",
+            "description": "An RSS Reader that pulls RSS feeds from a number of reputable news sources and aggregates them all into one place.  My first project using ReactJS.  I tried to emulate the user interface from Flipboard.",
+            "link": "https://yarr-reader.now.sh",
+            "tags": [
+                "ReactJS", "Webpack", "GulpJS", "NodeJS"
+            ]
+        },
+        {
+            "name": "ThingsAroundMe, Personal Project",
+            "date": "2017",
+            "description": "A web application that gets a listing of events and movie times around you.",
+            "link": "https://github.com/rhyuen/thingsaroundme",
+            "tags": [
+                "ReactJS", "Webpack", "NodeJS", "Redis", "EventbriteAPI", "MeetupAPI"
+            ]
+        },
+        {
+            "name": "Newspaper API, Personal Project",
+            "date": "2017",
+            "description": "A NodeJS API for the Vancouver Sun and the Province.  Authentication and API keys are handled using JWT.",
+            "link": "https://github.com/rhyuen/apilayer",
+            "tags": [
+                "NodeJS", "JWT", "MongoDB", "REST API"
+            ]
+        },
+        {
+            "name": "Email Landing Page, Personal Project",
+            "date": "2017",
+            "description": "A NodeJS web application that serves as a personal landing page.  It collects email addresses from users.",
+            "link": "https://mailgenr8r.herokuapp.com/",
+            "tags": [
+                "NodeJS", "Email", "MongoDB", "HTML", "CSS"
+            ]
+        },
+        {
+            "name": "Medium Home Page Clone, Personal Project",
+            "date": "2016",
+            "description": "An HTML and CSS mockup of the Medium blogging platform home page.  It was done as a personal project because I thought the user interface was aesthetically pleasing.  There is minimal Javascript use in the project.",
+            "link": "https://rhyuen.github.io/frontendchallenge/2016-oct-28-mediumhome/src/index.html",
+            "tags": [
+                "Mockup", "Javascript", "HTML", "CSS"
+            ]
+        },
+        {
+            "name": "Instapaper Clone, Personal Project",
+            "date": "2016",
+            "description": "An HTML and CSS mockup of the bookmarking site, Instapaper, main user page.  It was done as a personal project because I thought the user interface was aesthetically pleasing.  There is a moderate amount of Javascript use in the project.",
+            "link": "https://rhyuen.github.io/frontendchallenge/2016-nov-5-instapaper/src/index.html",
+            "tags": [
+                "Mockup", "Javascript", "HTML", "CSS"
+            ]
+        }
+    ]
+}
