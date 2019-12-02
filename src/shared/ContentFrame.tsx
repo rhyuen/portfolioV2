@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Footer from "./Footer";
 
 const ContentFrame = styled.div`
-  background-color: papayawhip;
+  background-color: white;
   grid-column: 2 / span 12;
   padding: 30px;
 `;

@@ -4,8 +4,9 @@
         "github": "https://github.com/rhyuen",
         "linkedin": "https://linkedin.com/robert-yuen",
         "twitter": "https://twitter.com/ryuen1",
-        "email": "mailto:roberthyuen@gmail.com"
+        "blog": "https://royu.netlify.com"
     },
+    "summary": "I am a web application developer (back-end and front-end) that primarily uses Javascript / Typescript and NodeJS.  I also dabble in Golang from time to time.",
     "skills": [
         "Javascript",
         "NodeJS",
@@ -16,29 +17,15 @@
         "Git",
         "ReactJS",
         "Webpack",
-        "PostGreSQL"
+        "PostGreSQL",
+        "Typescript"
     ],
-    "developing": ["Typescript", "Golang"],
-    "disuse": ["Gulp"],
-    "projects": [{
-            "name": "Golang Quotes API",
-            "date": "October 17, 2019",
-            "description": "Web application that lets you make deposits, new accounts, withdrawls and transfers. ",
-            "link": "https://rynodefaas.now.sh",
-            "tags": [
-                "Golang", "Serverless"
-            ]
-        },{
-            "name": "Social Network",
-            "date": "October 17, 2019",
-            "description": "Social Network ",
-            "link": "https://rynodefaas.now.sh",
-            "tags": [
-                "React", "Webpack", "NodeJS", "Serverless", "PostGreSQL", "Typescript"
-            ]
-        },{
+    "developing": ["Golang"],
+    "disuse": ["Gulp", "jQuery"],
+    "highlights": [{
             "name": "Simulated Banking Application",
             "date": "March 25, 2019",
+            "image": "bankapi.png",
             "description": "Web application that lets you make deposits, new accounts, withdrawls and transfers. ",
             "link": "https://rynodefaas.now.sh",
             "tags": [
@@ -46,8 +33,10 @@
             ]
         }, {
             "name": "JustCounting",
-            "date": "March 25, 2019",
-            "description": "Front end project that pretties up some data and makes it more easily digestible.",
+            "date": "March 25, 2019 - ongoing",
+            "image": "justcounting.png",
+            "description": "React project that lets you filter data and shows charts of said data.",
+            "motivation": "I needed to record something so that I could plot it, and it's easier for me to plot something if I am partial to it. So pushups were plotted. Ultimately, the goal of the project was to reduce the barrier to entry towards visualizing the data.  The goal was ultimately accomplished given that there are at least four charts on the site.",
             "link": "https://royucount.netlify.com",
             "tags": [
                 "Typescript", "React", "Webpack", "ChartJS"
@@ -55,7 +44,9 @@
         }, {
             "name": "Product Hunt Clone",
             "date": "December 12, 2018",
-            "description": "",
+            "image": "pdthunt.png",
+            "description": "Emulates the home page of product hunt.  Lets you make new Items.  Upvote Items.  Subscribe to Items. Save Items and Dismiss items from your view.  You can sort by category.  The ads on the side hit another serverless function that serves the image associated with the ad.",
+            "motivation": " I really liked the Product Hunt UI at one point. So I decided to copy it. Not all of the views are done though. Just the Home page.",
             "link": "https://rypdt.now.sh",
             "tags": [
                 "NodeJS", "REST API", "MongoDB", "React", "Webpack"
@@ -64,10 +55,31 @@
         {
             "name": "Tumblr Front-End Clone",
             "date": "July 16, 2018",
-            "description": "Front End Prototype that emulates the layout of the Tumblr Feed",
+            "image": "tumblr.png",
+            "description": "React static application that emulates the layout of the Tumblr Feed",
+            "motivation": "I thought the Tumblr feed UI was quite interesting and decided to try to implement it.",
             "link": "https://rytumblr.now.sh",
             "tags": [
                 "React", "Webpack"
+            ]
+        }
+    ],
+    "projects": [{
+            "name": "Golang Quotes API",
+            "date": "October 17, 2019",
+            "description": "Web application that lets you make deposits, new accounts, withdrawls and transfers. ",
+            "link": "https://rynodefaas.now.sh",
+            "tags": [
+                "Golang", "Serverless"
+            ]
+        }, {
+            "name": "Social Network",
+            "date": "October 17, 2019",
+            "description": "Social Network ",
+            "motivation": "Just some code for a social network.",
+            "link": "",
+            "tags": [
+                "React", "Webpack", "NodeJS", "Serverless", "PostGreSQL", "Typescript"
             ]
         },
         {

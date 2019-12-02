@@ -6,11 +6,12 @@ const HeroHeader: React.FunctionComponent<{}> = styled.section`
   color: black;
   display: grid;
   background-color: #f3f3f3;
-  height: 70vh;
+  height: 75vh;
   font-size: 4rem;
   font-weight: bold;
   justify-items: center;
   align-items: center;
+  margin-bottom: 10px;
 `;
 
 const ExportedHeroHeader: React.FunctionComponent<{}> = () => {

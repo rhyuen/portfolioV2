@@ -1,6 +1,8 @@
 import * as React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Anchor from "./shared/Anchor";
+import data from "./data/data.json";
 
 const StyledNav: React.FunctionComponent<{}> = styled.nav`
   display: grid;
@@ -35,20 +37,7 @@ const StyledLink = styled(Link)`
   color: black;
   margin-right: 40px;
   border-bottom: 2px solid transparent;
-
-  &:hover {
-    border-bottom-color: black;
-  }
-`;
-
-const StyledAnchor = styled.a`
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-  margin-right: 40px;
-  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease-in 0s;
 
   &:hover {
     border-bottom-color: black;
@@ -63,7 +52,9 @@ const Nav: React.FunctionComponent<{}> = () => {
       </LeftSection>
       <RightSection>
         <StyledLink to="/projects">Projects</StyledLink>
-        <StyledAnchor href="https://royu.netlify.com">Blog</StyledAnchor>
+        <Anchor size={16} href={data.social.blog}>
+          Blog
+        </Anchor>
         <StyledLink to="/about">About</StyledLink>
       </RightSection>
     </StyledNav>

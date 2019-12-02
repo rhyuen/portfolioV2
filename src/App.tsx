@@ -18,9 +18,9 @@ const App: React.FunctionComponent<{}> = () => {
       <Root>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={Home} />
           <Route component={NotFound} />
         </Switch>
       </Root>

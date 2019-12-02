@@ -1,32 +1,38 @@
 import * as React from "react";
-import styled from "styled-components";
 import Grid from "../shared/Grid";
 import ContentFrame from "../shared/ContentFrame";
 import Banner from "../shared/Banner";
-
-const PG = styled.section`
-  background-color: palevioletred;
-  grid-column: 2 / span 12;
-`;
+import Summary from "../shared/Summary";
+import BodyContent from "../shared/BodyContent";
+import BodyItem from "../shared/BodyItem";
+import Anchor from "../shared/Anchor";
+import data from "../data/data.json";
 
 const About = () => (
   <Grid>
     <Banner>About Me</Banner>
     <ContentFrame>
-      <section>
-        <p>Hello, here are some facts regarding myself.</p>
-        <p>I'm an avid attendee of meetups.</p>
-        <p>
-          I plan on speaking at some point in the future. The topic of which is
-          up for deliberation.
-        </p>
-      </section>
+      <Summary>Some details about me.</Summary>
+      <BodyContent>
+        <BodyItem>I'm an avid attendee of meetups.</BodyItem>
+        <BodyItem>
+          I plan on speaking at a local meetup at some point in the future. The
+          topic of which is up for deliberation. I am leaning towards something
+          OWASP and Javascript.
+        </BodyItem>
+      </BodyContent>
       <h1>Follow Me!</h1>
-      <section>
-        <a>Twitter</a>
-        <a>Github</a>
-        <a>LinkedIn</a>
-      </section>
+      <BodyContent>
+        <Anchor size={16} href={data.social.twitter}>
+          Twitter
+        </Anchor>
+        <Anchor size={16} href={data.social.github}>
+          Github
+        </Anchor>
+        <Anchor size={16} href={data.social.linkedin}>
+          LinkedIn
+        </Anchor>
+      </BodyContent>
     </ContentFrame>
   </Grid>
 );
