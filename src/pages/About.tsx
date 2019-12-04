@@ -12,17 +12,34 @@ const About = () => (
   <Grid>
     <Banner>About Me</Banner>
     <ContentFrame>
-      <Summary>Some details about me.</Summary>
+      <Summary>{data.about.summary}</Summary>
       <BodyContent>
-        <BodyItem>I'm an avid attendee of meetups.</BodyItem>
         <BodyItem>
-          I plan on speaking at a local meetup at some point in the future. The
-          topic of which is up for deliberation. I am leaning towards something
-          OWASP and Javascript.
+          <h1>What can I do ?</h1>
+          <p>{data.about.value}</p>
+        </BodyItem>
+        <BodyItem>
+          <h1>Interests</h1>
+          <p>{data.about.interests}</p>
+        </BodyItem>
+        <BodyItem>
+          <h1>Future plans</h1>
+          <p>{data.about.exposition}</p>
         </BodyItem>
       </BodyContent>
-      <h1>Follow Me!</h1>
+
+      <BodyItem>
+        <h1>Credits</h1>
+        <p>
+          I took heavy inspiration for this site from &nbsp;
+          <Anchor size={16} href="https://thefox.is/">
+            here.
+          </Anchor>
+        </p>
+      </BodyItem>
+
       <BodyContent>
+        <h1>Social</h1>
         <Anchor size={16} href={data.social.twitter}>
           Twitter
         </Anchor>

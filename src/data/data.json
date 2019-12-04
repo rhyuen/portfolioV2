@@ -6,7 +6,13 @@
         "twitter": "https://twitter.com/ryuen1",
         "blog": "https://royu.netlify.com"
     },
-    "summary": "I am a web application developer (back-end and front-end) that primarily uses Javascript / Typescript and NodeJS.  I also dabble in Golang from time to time.",
+    "summary": "I am a web application developer (back-end and front-end) that primarily uses Javascript / Typescript and NodeJS in Serverless/Functions/Lambda paradigm.  I also dabble in Golang from time to time.",
+    "about": {
+        "summary": "Hello, my name is Robert and I am a web developer based in Vancouver, Canada.",
+        "value": "I can build static websites (like this one).  I can also build more robust and full-featured ones like the Bank one in my Projects tab.",
+        "interests": "I am interested in data visualizations, software security and distributed systems.",
+        "exposition": "I am an avid attendee of meetups and increasing my understanding of how things work (in general).  I plan on speaking at a local meetup at some point in the future. The topic of which is up for deliberation. I am inclined towards something OWASP and Javascript."
+    },
     "skills": [
         "Javascript",
         "NodeJS",

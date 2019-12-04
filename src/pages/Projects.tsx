@@ -15,22 +15,14 @@ const Banner = styled.section`
   text-transform: uppercase;
   font-size: 4rem;
 `;
-const ShrunkImage = styled.img`
-  height: 200px;
-  width: 200px;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-`;
 
 const Projects = () => (
   <Grid>
     <Banner>Projects</Banner>
     <ContentFrame>
       <Summary>
-        Here's a curated listing of Personal Projects that I've done (bigger,
-        smaller and ongoing).
+        Here's a curated listing of Personal Projects that I've done.
       </Summary>
-
-      <h1>Older Projects</h1>
     </ContentFrame>
   </Grid>
 );
