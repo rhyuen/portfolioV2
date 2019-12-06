@@ -8,26 +8,40 @@ const StyledNav: React.FunctionComponent<{}> = styled.nav`
   display: grid;
   grid-template-columns:
     minmax(20px, 1fr)
-    repeat(12, minmax(auto, 100px))
+    repeat(8, minmax(auto, 100px))
     minmax(20px, 1fr);
   background-color: #f3f3f3;
   height: 15vh;
+
+  @media (min-width: 640px) and (max-width: 1023px) {
+    grid-template-columns:
+      minmax(20px, 1fr)
+      repeat(10, minmax(auto, 100px))
+      minmax(20px, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns:
+      minmax(20px, 1fr)
+      repeat(12, minmax(auto, 100px))
+      minmax(20px, 1fr);
+  }
 `;
 
 const LeftSection = styled.section`
   height: 100%;
-  grid-column: 2 / span 1;
+  grid-column: 2;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-`;
-
-const RightSection = styled.section`
-  height: 100%;
-  grid-column: 11 / span 1;
-  display: flex;
+  justify-content: flex-start;
   align-items: flex-end;
 `;
+
+// const RightSection = styled.section`
+//   height: 100%;
+//   grid-column: -3/-2;
+//   display: flex;
+//   align-items: flex-end;
+// `;
 
 const StyledLink = styled(Link)`
   font-size: 16px;
@@ -49,14 +63,12 @@ const Nav: React.FunctionComponent<{}> = () => {
     <StyledNav>
       <LeftSection>
         <StyledLink to="/">Robert</StyledLink>
-      </LeftSection>
-      <RightSection>
         <StyledLink to="/projects">Projects</StyledLink>
         <Anchor size={16} href={data.social.blog}>
           Blog
         </Anchor>
         <StyledLink to="/about">About</StyledLink>
-      </RightSection>
+      </LeftSection>
     </StyledNav>
   );
 };

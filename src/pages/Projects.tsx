@@ -3,6 +3,8 @@ import styled from "styled-components";
 import ContentFrame from "../shared/ContentFrame";
 import Summary from "../shared/Summary";
 import Grid from "../shared/Grid";
+import List from "../shared/List";
+import data from "../data/data.json";
 
 const Banner = styled.section`
   grid-column: 1 / span 14;
@@ -23,6 +25,7 @@ const Projects = () => (
       <Summary>
         Here's a curated listing of Personal Projects that I've done.
       </Summary>
+      <List data={data.highlights} />
     </ContentFrame>
   </Grid>
 );

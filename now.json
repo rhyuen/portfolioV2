@@ -1,22 +1,18 @@
 {
   "name": "ryuenv2",
   "version": 2,
-  "alias": ["ryuen"],
+  "alias": ["rytwo"],
   "env": {},
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+  "builds": [{
+    "src": "package.json",
+    "use": "@now/static-build",
+    "config": {
+      "distDir": "dist"
     }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/index.html"
-    }
-  ],
+  }],
+  "routes": [{
+    "src": "/",
+    "dest": "/index.html"
+  }],
   "public": true
 }

@@ -6,7 +6,7 @@
         "twitter": "https://twitter.com/ryuen1",
         "blog": "https://royu.netlify.com"
     },
-    "summary": "I am a web application developer (back-end and front-end) that primarily uses Javascript / Typescript and NodeJS in Serverless/Functions/Lambda paradigm.  I also dabble in Golang from time to time.",
+    "summary": "I am a web application developer (back-end and front-end) that primarily uses Javascript / Typescript and NodeJS in the Serverless/Functions/Lambda paradigm.  I also dabble in Golang from time to time.",
     "about": {
         "summary": "Hello, my name is Robert and I am a web developer based in Vancouver, Canada.",
         "value": "I can build static websites (like this one).  I can also build more robust and full-featured ones like the Bank one in my Projects tab.",
@@ -33,6 +33,7 @@
             "date": "March 25, 2019",
             "image": "bankapi.png",
             "description": "Web application that lets you make deposits, new accounts, withdrawls and transfers. ",
+            "motivation": "Kicking the tires with PostGreSQL and Serverless.",
             "link": "https://rynodefaas.now.sh",
             "tags": [
                 "React", "Webpack", "NodeJS", "Serverless", "PostGreSQL"
@@ -53,7 +54,7 @@
             "image": "pdthunt.png",
             "description": "Emulates the home page of product hunt.  Lets you make new Items.  Upvote Items.  Subscribe to Items. Save Items and Dismiss items from your view.  You can sort by category.  The ads on the side hit another serverless function that serves the image associated with the ad.",
             "motivation": " I really liked the Product Hunt UI at one point. So I decided to copy it. Not all of the views are done though. Just the Home page.",
-            "link": "https://rypdt.now.sh",
+            "link": "https://rypdtfed.now.sh/#/",
             "tags": [
                 "NodeJS", "REST API", "MongoDB", "React", "Webpack"
             ]

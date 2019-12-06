@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const ContentFrame = styled.div`
   background-color: white;
-  grid-column: 2 / span 12;
+  grid-column: 2 / -2;
   padding: 30px;
 `;
 

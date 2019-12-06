@@ -2,7 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 
 const Banner = styled.section`
-  grid-column: 1 / span 14;
+  grid-column: 1 / -1;
   display: flex;
   justify-content: center;
   align-items: center;
