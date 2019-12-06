@@ -14,7 +14,7 @@ const ExportedFooter: React.FunctionComponent<{}> = () => {
   return (
     <Footer>
       <span>WRITTEN BY ME!</span>
-      <span>Last Updated: DE2/19</span>
+      <span>Last Updated: DE5/19</span>
     </Footer>
   );
 };

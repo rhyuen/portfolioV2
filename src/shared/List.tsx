@@ -8,7 +8,7 @@ const Tag = styled.span`
   margin-right: 10px;
   text-transform: uppercase;
   font-size: 15px;
-  padding: 10px;
+  padding: 10px 0;
   font-weight: bold;
   background-color: white;
   cursor: pointer;
@@ -44,12 +44,21 @@ const ItemContainer = styled.article`
   display: flex;
   margin-bottom: 40px;
   align-items: center;
+  justify-content: flex-start;
 `;
 
 const TextContent = styled(BodyItem)`
   display: flex;
   flex-direction: column;
-  margin-left: 40px;
+  margin-left: 0;
+
+  @media (min-width: 640px) and (max-width: 1023px) {
+    margin-left: 20px;
+  }
+
+  @media (min-width: 1024px) {
+    margin-left: 40px;
+  }
 `;
 interface Highlight {
   name: string;
@@ -65,10 +74,11 @@ interface Props {
   data: Array<Highlight>;
 }
 const TagContainer = styled.section`
-  line-height: 2;
+  display: flex;
+  flex-wrap: wrap;
 `;
 const TextBlurb = styled.p`
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 `;
 
 const List: React.FunctionComponent<Props> = ({ data }) => {
@@ -87,7 +97,6 @@ const List: React.FunctionComponent<Props> = ({ data }) => {
               </Anchor>
               <TextBlurb>{item.description}</TextBlurb>
               <TagContainer>
-                Uses: &nbsp;
                 {item.tags.map((t: string) => (
                   <Tag key={v4()}>{t}</Tag>
                 ))}

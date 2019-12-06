@@ -12,6 +12,7 @@ const HeroHeader: React.FunctionComponent<{}> = styled.section`
 
   font-weight: bold;
   justify-content: center;
+  text-align: center;
   word-wrap: break-word;
   align-items: center;
 
@@ -25,7 +26,12 @@ const HeroHeader: React.FunctionComponent<{}> = styled.section`
 `;
 
 const ExportedHeroHeader: React.FunctionComponent<{}> = () => {
-  return <HeroHeader>Hi, I'm Robert. A web developer.</HeroHeader>;
+  return (
+    <HeroHeader>
+      Hi, I'm Robert.
+      <br /> A web developer.
+    </HeroHeader>
+  );
 };
 
 export default ExportedHeroHeader;
