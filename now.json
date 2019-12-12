@@ -1,7 +1,7 @@
 {
-  "name": "ryuenv2",
+  "name": "ryuen",
   "version": 2,
-  "alias": ["rytwo"],
+  "alias": ["ryuen"],
   "env": {},
   "builds": [{
     "src": "package.json",
