@@ -74,8 +74,8 @@
     "projects": [{
             "name": "Golang Quotes API",
             "date": "October 17, 2019",
-            "description": "Web application that lets you make deposits, new accounts, withdrawls and transfers. ",
-            "link": "https://rynodefaas.now.sh",
+            "description": "REST API with a series of quotations from fictional people. ",
+            "link": "https://royugoapi.now.sh",
             "tags": [
                 "Golang", "Serverless"
             ]

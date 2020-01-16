@@ -13,6 +13,7 @@ const Projects = React.lazy(() => import("./pages/Projects"));
 const About = React.lazy(() => import("./pages/About"));
 const Home = React.lazy(() => import("./pages/Home"));
 const NotFound = React.lazy(() => import("./NotFound"));
+const Skills = React.lazy(() => import("./pages/Skills"));
 
 const App: React.FunctionComponent<{}> = () => {
   return (
@@ -21,6 +22,7 @@ const App: React.FunctionComponent<{}> = () => {
         <Nav />
         <React.Suspense fallback={<Spinner />}>
           <Switch>
+            <Route exact path="/skills" component={Skills} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/about" component={About} />
             <Route exact path="/" component={Home} />

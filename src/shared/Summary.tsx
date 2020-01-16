@@ -5,6 +5,7 @@ const Summary: React.FunctionComponent<{}> = styled.section`
   display: flex;
   font-size: 15px;
   padding: 50px 0;
+  flex-direction: column;
   border-bottom: 5px solid black;
   margin-bottom: 100px;
 
