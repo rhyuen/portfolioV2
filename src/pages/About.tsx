@@ -7,6 +7,7 @@ import BodyContent from "../shared/BodyContent";
 import BodyItem from "../shared/BodyItem";
 import Anchor from "../shared/Anchor";
 import data from "../data/data.json";
+import Spinner from "../shared/Spinner";
 
 const About = () => (
   <Grid>
