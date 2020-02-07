@@ -32,7 +32,7 @@ module.exports = {
     new HTMLWebpackPlugin({
       template: path.join(__dirname, "src/templates/index.html"),
       filename: "index.html",
-      favicon: path.join(__dirname, "src/images/ryv2.png"),
+      favicon: path.join(__dirname, "src/images/favicon.png"),
       inject: "body",
       title: "Robert Yuen Portfolio"
     }),
