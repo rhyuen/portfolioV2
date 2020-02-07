@@ -14,7 +14,7 @@
     "removeComments": true,
     "esModuleInterop": true,
     "noImplicitAny": true,
-    "types": ["node"],
+    "types": ["jest", "node"],
     "lib": [
       "es5",
       "es2015",

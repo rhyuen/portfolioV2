@@ -10,13 +10,13 @@
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "25.1.2",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
     "@types/react-native": "^0.57.65",
     "babel-loader": "8.0.5",
     "babel-plugin-styled-components": "^1.10.6",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "4.6.0",
     "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.9.1",
     "eslint": "5.13.0",
@@ -80,7 +80,8 @@
     "dev:hot": "npm run dev -- --hot",
     "format": "prettier --write \"/src/*.{js,jsx,css,json}\" ",
     "lint": "eslint \"frontend/src/**/*.{js,jsx}\"",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:dev": "jest --watch",
     "type-check": "tsc --noEmit"
   }
 }
