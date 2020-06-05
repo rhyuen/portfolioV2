@@ -7,13 +7,26 @@ import BodyContent from "../shared/BodyContent";
 import BodyItem from "../shared/BodyItem";
 import Anchor from "../shared/Anchor";
 import data from "../data/data.json";
+import styled from "styled-components";
 import Spinner from "../shared/Spinner";
+
+const Map = styled.div`
+  filter: grayscale(100%);
+`;
+
+
 
 const About = () => (
   <Grid>
     <Banner>About Me</Banner>
     <ContentFrame>
       <Summary>{data.about.summary}</Summary>
+      <React.Suspense fallback={<Spinner />}>
+        <Map>
+          <iframe width="100%" height="400" frameBorder="0" src="https://www.bing.com/maps/embed?h=400&w=700&cp=49.2830126088412~-123.12079083919528&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+          </iframe>
+        </Map>
+      </React.Suspense>
       <BodyContent>
         <BodyItem>
           <h1>What can I do ?</h1>
