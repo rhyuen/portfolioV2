@@ -8,5 +8,8 @@
 
 # ChangeLog
 
+
+> JUN5/20 Added Tests that run and test that the links work.
+> MR4/20 Adding a Bing Map to About.
 > FE18/20 Updated Favicon to Pixel Art
 > NO25/19 Git Repo Started
